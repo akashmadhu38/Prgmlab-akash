@@ -1,3 +1,2 @@
 # Prgmlab-akash
-Akash
-
+print"Hello"
