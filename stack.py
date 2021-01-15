@@ -1,4 +1,4 @@
-size=5
+size=int(input("Enter the size:"))
 stack = [size]
 for i in range (0,size):
     a = input("Enter the value to insert:")
