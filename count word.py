@@ -6,5 +6,5 @@ for s in s:
         c[s] += 1
     else:
         c[s] = 1
-print(c,c[s])
+print(c)
 
