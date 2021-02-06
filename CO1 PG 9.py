@@ -1,3 +1,9 @@
 w=input("Enter a word:")
-for i in reversed(range(0,len(w))):
-    print(w[i],end="")
+n=len(w)
+for i in range(0,n):
+    if i==0:
+        print(w[n-1])
+    elif i==n-1:
+        print(w[0])
+    else:
+        print(w[i])
