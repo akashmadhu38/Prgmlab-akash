@@ -13,7 +13,7 @@ for i in range(0,n+1):
 str1=""
 for i in s:
     str1+=i
-print("Number of a in "+str1+" is:")
+print("Number of a in ",s," is:")
 c=0
 for i in range(0,len(str1)):
     if str1[i]=="a":
