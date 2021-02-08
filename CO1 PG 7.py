@@ -12,13 +12,13 @@ for i in lst and lst1:
 for i in range(0,len(lst) and len(lst1)):
     s=s+lst[i]
     c=c+lst1[i]
-for i in range(0, len(lst) and len(lst1)):
-    if s==c:
-        print("Sum of values are same")
-        break
-    else:
-        print("Sum of values are different")
-        break
+
+if s==c:
+    print("Sum of values are same")
+
+else:
+    print("Sum of values are different")
+
 print("Elements that matched are:")
 l=[]
 for i in range(0,len(lst)):
@@ -26,6 +26,6 @@ for i in range(0,len(lst)):
         if lst[i]==lst1[j]:
             l.append(lst[i] and lst1[j])
         else:
-            p=i
+
             continue
 print(l)
