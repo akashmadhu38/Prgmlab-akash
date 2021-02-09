@@ -5,9 +5,9 @@ l=[]
 s=[]
 for i in range(0,n):
     w.append(input())
-    l.append(w[i].split())
+    l.append(w[i].split(" "))
 l=sum(l,[])
-for i in range(0,n+1):
+for i in range(0,len(l)):
     if i%2==0:
         s.append(l[i])
 str1=""
