@@ -1,10 +1,10 @@
 w=input("Enter a sentence:")
 c = dict()
 s = w.split()
-for s in s:
-    if s in c:
-        c[s] += 1
+for i in s:
+    if i in c:
+        c[i] += 1
     else:
-        c[s] = 1
+        c[i] = 1
 print(c)
 
